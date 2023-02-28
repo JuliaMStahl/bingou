@@ -1,7 +1,7 @@
-name: bingou
-description: A new Flutter project.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+name: routes_lib
+description: A new Flutter module project.
 version: 1.0.0+1
+publish_to: 'none'
 
 environment:
   sdk: '>=2.19.0 <3.0.0'
@@ -11,8 +11,8 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   get: ^4.6.5
-  routes_lib:
-    path: libraries/routes_lib
+  home:
+    path: ../../features/home
 
 dev_dependencies:
   flutter_test:
@@ -22,3 +22,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
+  module:
+    androidX: true
+    androidPackage: com.example.routes_lib
+    iosBundleIdentifier: com.example.routesLib

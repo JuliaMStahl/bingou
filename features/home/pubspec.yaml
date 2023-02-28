@@ -1,18 +1,18 @@
-name: bingou
+name: home
 description: A new Flutter project.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-version: 1.0.0+1
+version: 0.0.1
+publish_to: 'none'
 
 environment:
   sdk: '>=2.19.0 <3.0.0'
+  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
   get: ^4.6.5
   routes_lib:
-    path: libraries/routes_lib
+    path: ../../libraries/routes_lib
 
 dev_dependencies:
   flutter_test:
@@ -20,5 +20,3 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-  uses-material-design: true
-
