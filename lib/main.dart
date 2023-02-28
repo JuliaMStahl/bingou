@@ -8,5 +8,8 @@ void main() {
     initialRoute: RedirectTo.ROUTES_HOME,
     getPages: AppPages.routes,
     locale: const Locale("pt", "BR"),
+    theme: ThemeData(
+      useMaterial3: true,
+    ),
   ));
 }

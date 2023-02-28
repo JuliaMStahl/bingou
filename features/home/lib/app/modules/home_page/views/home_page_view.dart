@@ -14,6 +14,7 @@ class HomePageView extends GetView<HomePageController> {
       appBar: AppBar(
           title: const Text('bingou'),
           backgroundColor: Color(0XFF231651),
+          foregroundColor: Colors.white,
           actions: [
             IconButton(
               onPressed: () {},
