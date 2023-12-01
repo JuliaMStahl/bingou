@@ -13,8 +13,6 @@ class HomePageView extends GetView<HomePageController> {
       backgroundColor: Color(0XFFD6FFF6).withOpacity(0.9),
       appBar: AppBar(
           title: const Text('bingou'),
-          backgroundColor: Color(0XFF231651),
-          foregroundColor: Colors.white,
           actions: [
             IconButton(
               onPressed: () {},
@@ -30,8 +28,6 @@ class HomePageView extends GetView<HomePageController> {
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {},
         label: Text('Iniciar rodada'),
-        backgroundColor: Color(0XFF4DCCBD),
-        foregroundColor: Colors.black,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
